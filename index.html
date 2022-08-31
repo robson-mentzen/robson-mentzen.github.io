@@ -10,72 +10,87 @@
         <title>Currículo</title>
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
 
     <body style="font-family: Roboto;">
-        <h1>Róbson Kunzler Mentzen</h1>
-        <div style="display: flex;">
-            <div style="width: 10%;">
-                <img style="border-radius: 15%;" width="70%" src="Imagem_perfil_2.jpg"/>
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col-md-2">
+                    <br><br>
+                    <img style="border-radius: 15%;" width="110%" src="Imagem_perfil_2.jpg"/>
+                </div>
+
+                <div class="col-md-10">
+                    <br>
+                    <ul>
+                        <br>
+                        <h3>Róbson Kunzler Mentzen</h3>
+                        <li><b>E-mail:</b> robson.mentzen@universo.univates.br</li>
+                        <li><b>Idade:</b> 22 anos</li>
+                        <li><b>Endereço:</b> João Weiler Klein, 225 - Montanha, Lajeado/RS</li>
+                        <li><b>Celular:</b> (51) 99590-4858</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-center pt-2">Objetivos:</h3>
+                    <br>
+                    <ol>
+                        <li>Procuro oportunidade relacionada à área de TI, que possa trazer 
+                        novas perspectivas de futuro e crescimento;</li>
+                        <li>Busco minha primeira experiência de trabalho 
+                        após formado em Técnico de Informática pela Univates; </li>
+                        <li>Quero desenvolver minhas habilidades e também contribuir para o sucesso 
+                        da empresa.</li>
+                    </ol>
+                    <br>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="text-center pt-2">Formações:</h3>
+                    <br>
+                    <ul>
+                        <li>Técnico de Informática - Univates (Universidade do Vale do Taquari)</li>
+                        <li>Ensino médio completo - Castelinho (Escola Estadual Presidente Castelo Branco)</li>
+                        <li>Ensino funcamental completo - Escola Fernandes Vieira</li>
+                    </ul>
+                    <br>
+                </div>
             </div>
 
-            <div style="width: 90%;">
-                <br>
-                <ul>
-                    <li><b>E-mail:</b> robson.mentzen@universo.univates.br</li>
-                    <li><b>Idade:</b> 22 anos</li>
-                    <li><b>Endereço:</b> João Weiler Klein, 225 - Montanha, Lajeado/RS</li>
-                    <li><b>Celular:</b> (51) 99590-4858</li>
-                </ul>
+            <div class="row">
+                <div class="col-md-10">
+                    <h3>Experiências Profissionais:</h3>
+                    <br>
+                    <ul>
+                        <p><b>Auxiliar de Loja: </b>Empório</p>
+                        <ul>
+                            <li>01/08/2016 - atualmente</li>
+                        </ul>
+                        <p><b>Funções: </b>Ajudo em praticamente tudo na loja, desde atendimento a clientes na parte 
+                        das vendas e do caixa até conferência de mercadorias.</p>
+                    </ul>
+                    <br>
+                    <ul>
+                        <p><b>Jovem Aprendiz: </b>Empório de Malhas</p>
+                        <ul>
+                            <li>02/02/2015 - 01/07/2016</li>
+                        </ul>
+                        <p><b>Funções: </b>Exercia a função de jovem aprendiz, trabalhava na parte 
+                        da tarde com carga horário limitada de segunda à sexta.</p>
+                    </ul>
+                </div>
             </div>
         </div>
-        <br>
-        <hr>
-        <div style="display: flex;">
-            <div style="width: 35%; margin-left: 50px;">
-                <h3>Objetivos:</h3>
-                <ol>
-                    <li>Procuro oportunidade relacionada à área de TI, que possa trazer 
-                    novas perspectivas de futuro e crescimento;</li>
-                    <li>Busco minha primeira experiência de trabalho 
-                    após formado em Técnico de Informática pela Univates; </li>
-                    <li>Quero desenvolver minhas habilidades e também contribuir para o sucesso 
-                    da empresa.</li>
-                </ol>
-                <br>
-                <h3>Formações:</h3>
-                <ul>
-                    <li>Técnico de Informática - Univates (Universidade do Vale do Taquari)</li>
-                    <li>Ensino médio completo - Castelinho (Escola Estadual Presidente Castelo Branco)</li>
-                    <li>Ensino funcamental completo - Escola Fernandes Vieira</li>
-                </ul>
-                <br>
-            </div>
 
-            <div style="width: 35%; margin-left: 80px;">
-                <h3>Experiências Profissionais:</h3>
-                <ul>
-                    <p><b>Auxiliar de Loja: </b>Empório</p>
-                    <ul>
-                        <li>01/08/2016 - atualmente</li>
-                    </ul>
-                    <p><b>Funções: </b>Ajudo em praticamente tudo na loja, desde atendimento a clientes na parte 
-                    das vendas e do caixa até conferência de mercadorias.</p>
-                </ul>
-                <br>
-                <ul>
-                    <p><b>Jovem Aprendiz: </b>Empório de Malhas</p>
-                    <ul>
-                        <li>02/02/2015 - 01/07/2016</li>
-                    </ul>
-                    <p><b>Funções: </b>Exercia a função de jovem aprendiz, trabalhava na parte 
-                    da tarde com carga horário limitada de segunda à sexta.</p>
-                </ul>
-            </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-            <div style="width: 30%;">
-
-            </div>
-        </div>
     </body>
 </html>
